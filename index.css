@@ -1,7 +1,3 @@
-body{
-    font-family: ;
-}
-
 .title{
     width: 100%;
     height: 250px;
@@ -89,9 +85,25 @@ body{
 
 .skills{
     padding:75px 15px;
-    border-bottom:1px solid #dcd9d9
+    border-bottom:1px solid #dcd9d9;
 }
 .skills h2{color:#374054}
 .skills p{color:#74808a;margin:0;font-style: italic; font-weight: bold; font-size: larger;}
 .skills ul{display: block; margin: 0 auto;padding: 0; max-width: 800px;}
 .skills li{display: inline-block;margin:7px;padding:5px 10px;color:#374054;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
+
+.projects{
+    padding:75px 15px;
+    border-bottom:1px solid #dcd9d9;
+    background-color:#f2f2f5;
+}
+.projects h2{color:#374054}
+.project{position:relative;max-width: width 900px;  margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px;padding:50px 15px;border-bottom:1px solid #dcd9d9; }
+.project p{color:#74808a;margin:0;line-height: 180%;}
+.project-image{float:left;}
+.pro-container{padding: 5px 200px;}
+.project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
+.project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
+.project-info{position:relative;margin-left: 730px;padding:30px 15px;transform:none;}
+.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}
+.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15);}
